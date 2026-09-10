@@ -112,6 +112,9 @@ Input > Fetch live agent nodes, active deployments, and recent commit logs.
 >
 >⚡ Recent Commit Log
 >
+> <!-- RECENT_ACTIVITY:START -->
+> * Waiting for activity update...
+> <!-- RECENT_ACTIVITY:END -->
 ---
 ### 📈 System Telemetry: Activity Matrix
 
@@ -135,4 +138,8 @@ Input > Fetch daily_quote
 >
 >**System Output** `[Streaming Daily Inspiration...]`
 >
+> <!-- DAILY_QUOTE:START -->
+> > "The most dangerous phrase in the language is, 'We've always done it this way.'"  
+> > — *Grace Hopper*
+> <!-- DAILY_QUOTE:END -->
 ---
