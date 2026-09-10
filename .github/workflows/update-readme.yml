@@ -52,13 +52,18 @@ jobs:
               with open('README.md', 'r') as f:
                   content = f.read()
 
-              pattern = r'.*?'
-              replacement = f'\n{activity_str}\n'
+              start_tag = '<!-- RECENT_ACTIVITY:START -->'
+              end_tag = '<!-- RECENT_ACTIVITY:END -->'
 
-              updated = re.sub(pattern, replacement, content, flags=re.DOTALL)
+              if start_tag in content and end_tag in content:
+                  before = content.split(start_tag)[0]
+                  after = content.split(end_tag)[1]
+                  updated = f'{before}{start_tag}\n{activity_str}\n{end_tag}{after}'
 
-              with open('README.md', 'w') as f:
-                  f.write(updated)
+                  with open('README.md', 'w') as f:
+                      f.write(updated)
+              else:
+                  print('Tags not found in README.md')
           except Exception as e:
               print(f'Error fetching activity: {e}')
           "
