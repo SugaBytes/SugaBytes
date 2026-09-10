@@ -33,7 +33,7 @@
 ```text
 Input > What is my core focus and current research direction?
 ```
-><img src="https://s6.ezgif.com/tmp/ezgif-6f5d11ab9ca9bc48.gif" height="40px" align="center" alt="Loading GIF" />
+><img src="loading.gif" height="40px" align="center" alt="Loading GIF" />
 >
 > **System Output** `[Generating Response...]`
 > 
@@ -51,7 +51,7 @@ Input > What is my core focus and current research direction?
 ```text
 Input > Load technical stack, orchestration modules, and system capabilities.
 ```
-><img src="https://s6.ezgif.com/tmp/ezgif-6f5d11ab9ca9bc48.gif" height="40px" align="center" alt="Loading GIF" />
+><img src="loading.gif" height="40px" align="center" alt="Loading GIF" />
 >
 > **System Output** `[Loading skill modules...]`
 >
@@ -106,7 +106,7 @@ Input > Load technical stack, orchestration modules, and system capabilities.
 ```text
 Input > Fetch live agent nodes, active deployments, and recent commit logs.
 ```
-><img src="https://s6.ezgif.com/tmp/ezgif-6f5d11ab9ca9bc48.gif" height="40px" align="center" alt="Loading GIF" />
+><img src="loading.gif" height="40px" align="center" alt="Loading GIF" />
 >
 >**System Output** `[Checking active repository status...]`
 >
@@ -119,7 +119,7 @@ Input > Fetch live agent nodes, active deployments, and recent commit logs.
 ```text
 Input > Render contribution metrics and commit trend analysis.
 ```
-><img src="https://s6.ezgif.com/tmp/ezgif-6f5d11ab9ca9bc48.gif" height="40px" align="center" alt="Loading GIF" />
+><img src="loading.gif" height="40px" align="center" alt="Loading GIF" />
 >
 >**System Output** `[Analyzing activity logs...]`
 >
@@ -131,7 +131,7 @@ Input > Render contribution metrics and commit trend analysis.
 ```text
 Input > Fetch daily_quote
 ```
-><img src="https://s6.ezgif.com/tmp/ezgif-6f5d11ab9ca9bc48.gif" height="40px" align="center" alt="Loading GIF" />
+><img src="loading.gif" height="40px" align="center" alt="Loading GIF" />
 >
 >**System Output** `[Streaming Daily Inspiration...]`
 >
