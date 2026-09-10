@@ -113,8 +113,8 @@ Input > Fetch live agent nodes, active deployments, and recent commit logs.
 >⚡ Recent Commit Log
 >
 > <!-- RECENT_ACTIVITY:START -->
-> * Waiting for activity update...
-> <!-- RECENT_ACTIVITY:END -->
+> * No recent public commit activity.
+<!-- RECENT_ACTIVITY:END -->
 ---
 ### 📈 System Telemetry: Activity Matrix
 
