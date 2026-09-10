@@ -16,7 +16,6 @@ jobs:
         run: |
           python3 -c "
           import random
-          import re
 
           quotes = [
               {'quote': 'The most dangerous phrase in the language is, \"We\'ve always done it this way.\"', 'author': 'Grace Hopper'},
@@ -39,13 +38,18 @@ jobs:
           with open('README.md', 'r') as f:
               content = f.read()
 
-          pattern = r'.*?'
-          replacement = f'\n{new_block}\n'
+          start_tag = '<!-- DAILY_QUOTE:START -->'
+          end_tag = '<!-- DAILY_QUOTE:END -->'
 
-          updated_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+          if start_tag in content and end_tag in content:
+              before = content.split(start_tag)[0]
+              after = content.split(end_tag)[1]
+              updated = f'{before}{start_tag}\n{new_block}\n{end_tag}{after}'
 
-          with open('README.md', 'w') as f:
-              f.write(updated_content)
+              with open('README.md', 'w') as f:
+                  f.write(updated)
+          else:
+              print('Tags not found in README.md')
           "
 
       - name: Commit and Push Changes
