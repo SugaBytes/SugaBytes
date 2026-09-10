@@ -116,19 +116,6 @@ Input > Fetch live agent nodes, active deployments, and recent commit logs.
 > * No recent public commit activity.
 <!-- RECENT_ACTIVITY:END -->
 ---
-### 📈 System Telemetry: Activity Matrix
-
-<!-- PROMPT INPUT BOX -->
-```text
-Input > Render contribution metrics and commit trend analysis.
-```
-><img src="loading.gif" height="40px" align="center" alt="Loading GIF" />
->
->**System Output** `[Analyzing activity logs...]`
->
->![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=your-github-username&bg_color=1f2a44&color=FAF6F0&line=E29578&point=FFBF69&area=true&hide_border=true)
->
----
 ### 💬 System Terminal: Daily Inspiration
 
 ```text
