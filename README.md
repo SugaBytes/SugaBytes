@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Technology should be an equalizer, enabling everyone to participate fully in society."
-> > — *Barbara Liskov*
+> > "Data is not neutral. Algorithms are not neutral. They reflect the biases of their creators."
+> > — *Joy Buolamwini*
 <!-- DAILY_QUOTE:END -->
 ---
